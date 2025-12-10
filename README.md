@@ -63,16 +63,15 @@ py -m pip install fastapi uvicorn pytest
 
 
 ### ➤ Rodar a API
-uvicorn main:app --reload
+uvicorn main:app --reload --port 8000
 
 
-Acesse:  
+Com o servidor rodando, acesse o Swagger:
 👉 http://127.0.0.1:8000/docs
 
 ---
 
 # 📌 4. Rodar Testes Unitários
-
 py -m pytest -q
 
 
